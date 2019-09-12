@@ -41,7 +41,7 @@ export default class Donation extends React.Component {
           <div className="row">
             <div className="col-xl-6 col-lg-8 col-sm-10 col-xs-12">
               <div className='cardContainer'>
-                <div style={{ fontSize: 15, fontWeight: "bold" }}>
+                <div style={{ fontSize: 15, fontWeight: "bold", paddingTop:"15px" }}>
                   {" "}
                   Choose a donation amount
               </div>
