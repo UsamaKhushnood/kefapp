@@ -1,0 +1,80 @@
+@font-face {
+  font-family: "Harabara Bold";
+  src: url("./../../../assets/fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Harabara Medium";
+  src: url("./../../../assets/fonts/Montserrat/Montserrat-Medium.ttf");
+}
+
+.slideFiveContainer {
+  width: 100%;
+}
+
+.headingSlide > p {
+  /* text-align: center; */
+  font-size: 1.3vw;
+  font-weight: bold;
+  color: #354463;
+  font-family: "Harabara Bold";
+}
+.slideFiveDescription {
+  margin-top: -10%;
+  color: #354463;
+  font-size: 0.9vw;
+  font-family: "Lato Light";
+}
+
+@media screen and (max-width: 768px) {
+  .headingSlide > p {
+    /* margin-top: 11%; */
+    text-align: center;
+  }
+  .slideFiveDescription {
+    text-align: center;
+  }
+  .slideFiveContainer {
+
+  }
+}
+
+
+
+.cFlexBox {
+  display: flex;
+  justify-content: space-between;
+  margin: 4% 0;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.cFlexBox h3 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.cFlexBox p {
+  font-size: 12px;
+  margin-bottom: 0;
+}
+
+.cFlexItem {
+  width: 20%;
+}
+
+
+@media screen and  (max-width:658px){
+  .cFlexBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cFlexItem {
+  width: 50%;
+  text-align: center;
+  margin-top: 5%;
+}
+}
+
